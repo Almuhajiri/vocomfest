@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Pembayaran</title>
+	<link rel="stylesheet" type="text/css" href="Assets/css/Style.css">
+</head>
+<body>
+	<div class="navbar">
+		<div class="navbar-menu">
+			<ul>
+				<li class="navbar-left"><a href="#"><img src="Assets/img/Home.png"></a></li>
+				<li class="navbar-left"><a href="#"><img src="Assets/img/Message.png"></a></li>
+				<li class="navbar-left"><a href="#"><img src="Assets/img/About.png"></a></li>
+				<li class="navbar-right"><a href="#"><img src="Assets/img/Search.png"></a></li>
+				<li class="navbar-right"><a href="#"><img src="Assets/img/Trolly.png"></a></li>
+				<li class="navbar-right"><a href="#"><img src="Assets/img/Account.png"></a></li>
+			</ul>
+		</div>
+		<div class="title">
+			<p>batik ts</p>
+		</div>
+	</div>
+	<div class="header">
+		<div class="header-darkblue">
+		</div>
+		<div class="header-blue">
+		</div>
+	</div>
+	<section>
+		<img src="Assets/img/b.png" class="payment-method">
+	</section>
+	<section class="input-data">
+		<div class="container-list">
+			<img class="img-payment" src="Assets/img/btk-payment.png">
+			<p class="title-payment">Kemeja Batik Jawa</p>
+			<div class="count-list">
+				<a href="#" class="btn-min" onclick="min()">-</a>
+				<input type="number" name="count" placeholder="1" class="count-ttl"><a href="#"></a>
+				<a href="#" class="btn-plus" onclick="plus()">+</a>
+			</div>
+				<div class="list-price">
+					<p id="price" class="price">Rp. 120.000</p>
+					<p id="ttl-price" class="ttl-price">Rp. 240.000</p>
+				</div>
+		</div>
+		<div class="input-7">
+			<label>Courier</label>
+			<select>
+				<option>Select Courier Service</option>
+				<option>Pos Indonesia</option>
+				<option>JNE</option>
+				<option>J&T</option>
+			</select>
+		</div>
+		<div class="input-7">
+			<label>Note</label>
+			<textarea placeholder="Example: type, size, color"></textarea>
+		</div>
+	</section>
+	<section class="confirm-data">
+		<a href="Pembayaran.html"><button class="btn-cancel">Previous</button></a>
+		<a href="Pembayaran3.html"><button class="btn-next">Next</button></a>
+	</section>
+</body>
+</html>
